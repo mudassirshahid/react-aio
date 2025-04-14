@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+}
+.mainLightTheme :is(h1) {
+    color: black;
+}
+
+.mainDarkTheme :is(h1) {
+    color: white;
+}
