@@ -36,6 +36,7 @@ const BrandLogoSlider = () => {
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true, // Pauses autoplay on hover
         }}
         speed={2000}
         freeMode={true}
