@@ -7,6 +7,10 @@ import FoodApp from '../components/addToCart/FoodCartItem'
 import CartDrawer from '../components/addToCart/CartDrawer'
 import Slider from '../components/ui/Sliders/Slider'
 import BrandLogoSlider from '../components/ui/Sliders/BrandLogo'
+import Navbar from '../components/ui/Navbar/Navbar'
+import HeroSection from '../components/ui/HeroSection'
+import Diff from '../components/ui/DaisyUi/Diff'
+import Tab from '../components/ui/DaisyUi/Tab'
 
 const Home = () => {
   return (
@@ -20,7 +24,11 @@ const Home = () => {
       {/* <FoodApp /> */}
       {/* <CartDrawer /> */}
       {/* <Slider/> */}
-      <BrandLogoSlider/>
+      {/* <BrandLogoSlider/> */}
+      {/* <Navbar/> */}
+      {/* <HeroSection/> */}
+      {/* <Diff/> */}
+      {/* <Tab/> */}
     </div>
     
     </>
